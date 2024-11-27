@@ -19,19 +19,19 @@ The goal of this analysis is to:
   Tobacco use
   Cannabis use
 
-**Machine Learning Models:
-**  Logistic Regression
+**Machine Learning Models:**
+  Logistic Regression
   Decision Tree Classifier
 
-**Preprocessing Steps:
-**  Invalid or missing responses were removed using a custom DropNull function.
+**Preprocessing Steps:**
+  Invalid or missing responses were removed using a custom DropNull function.
   Features were organized into predefined categories, cleaned, and transformed using drugfeatures.py for easy modular analysis.
 
 **Evaluation Metrics**:
-Accuracy scores
-Confusion matrices
-Classification reports
-Results
+  Accuracy scores
+  Confusion matrices
+  Classification reports
+  Results
 
 **Initial Model Performance**:
   Logistic Regression and Decision Tree Classifier achieved 75% accuracy with bullying-related features, while substance use features performed poorly (accuracy < 70%).
